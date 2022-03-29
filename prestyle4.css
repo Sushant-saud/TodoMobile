@@ -58,8 +58,8 @@
     opacity: 0.6;
 }
 .container{
-filter:blur(4px);
--webkit-filter: blur(4px);
+filter:blur(6px);
+-webkit-filter: blur(6px);
 }
 .pop-up{
 position:absolute;
@@ -144,6 +144,7 @@ font-size:1.1rem;
     .div2{
         font-size: 1rem;
     }
+}
     @media screen and (max-width:800px){
         .pop-up{
             height:18vh;
@@ -167,7 +168,11 @@ font-size:1.1rem;
             top: 0px;
             right: -32px;
           }
+        .container{
+filter:blur(4px);
+-webkit-filter: blur(4px);
+}
        
-    }
+    
 
 }
